@@ -72,26 +72,23 @@ height:100%
  
 
  
-.slider-container>.prev,.slider-container>.next{
-		background-image: url('../images/Shape Copy.png');
-		background-position: center center;
-		position: absolute;
-		height: 40px;
-		width: 40px;
-		border:1px solid white;
-		border-radius:50%;
-		background-repeat: no-repeat; 
-		top: 45%;
-		cursor: pointer;
-		z-index: 1000;
-		opacity:.3;
-		transition:all .6s ease-in-out;
+.slider-container>.prev,.slider-container>.next{  
+position: absolute; 
+    border: 1px solid white;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    top: 45%;
+    cursor: pointer;
+    z-index: 1000;
+    padding: 5px 15px;
+    transition: all .6s ease-in-out;
+    color: white;
+    font-size: 28px;
 }
 
 
 .slider-container>.next{  
-    right: 35px;
-    transform: rotate(180deg)
+    right: 35px; 
 }
 .slider-container>.prev{    
 left: 35px;
@@ -102,15 +99,13 @@ left: 35px;
 	opacity:1;
 	border-color:orange
 }
-.slider-container>.prev:hover{
-    background-image: url('../images/Shape.png');
-    transform: rotate(-181deg);
+.slider-container>.prev:hover{ 
+       transform: rotate(360deg);
 }
 
-.slider-container>.next:hover{
-    background-image: url('../images/Shape.png'); 
+.slider-container>.next:hover{ 
 
-    transform: rotate(0deg)
+    transform: rotate(360deg);
 }
 
  
